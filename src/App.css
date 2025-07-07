@@ -1,0 +1,75 @@
+*{
+  margin :0;
+  color :#ccc;
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  align-items:center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-bottom: 1px solid #666;
+  h1{
+    color: #e39dff;
+    text-shadow: 0 0 40px rgba(247, 213, 255, 0.449);
+    font-weight:600;
+  }
+  .links{
+    margin-left: auto;
+  }
+  .links a{
+    margin-left: 16px;
+  }
+  .links a:hover{
+    color: #e39dff;
+  }
+}
+.content{
+  max-width: 600px;
+  margin: 10px auto;
+}
+.studentPreview{
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  border-radius: 5px;
+
+
+}
+.studentPreview:hover{
+  background-color: #ef9dff2f;
+  box-shadow: 2px 2px 5px #111;
+}
+h2{
+  color: #ceb8e5;
+  font-weight: normal;
+}
+.studentDetails{
+  margin : 10px 0;
+  border: 1px solid #333;
+  border-radius: 10px;
+  p {
+    padding: 10px;
+    border-bottom: 1px solid #333 ;
+  }
+  .buttons{
+    display: flex;
+    justify-content: center;
+  }
+  button {
+   margin: 15px 10px;
+   padding: 5px;
+   width: 60px;
+   border-radius: 5px;
+   border: 1px solid #999;
+   font-size: small;
+  }
+  button:hover{
+    background-color: #444;
+  }
+  button:active{
+    background-color: #666;
+  }
+}

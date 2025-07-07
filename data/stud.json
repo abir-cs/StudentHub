@@ -1,0 +1,34 @@
+{
+    "students":[
+        {
+            "id":864,
+            "Fname":"Lamis",
+            "Lname":"Bouflga",
+            "DB":"12/05/2005",
+            "description":"good student",
+            "bacAVG":15.26,
+            "courses":["1"]
+
+        },
+        {
+            "id":654,
+            "Fname":"Chahd",
+            "Lname":"Bolahrach",
+            "DB":"10/09/2005",
+            "description":"good student",
+            "bacAVG":16.49,
+            "courses":["4","3"]
+
+        },
+        {
+            "id":12,
+            "Fname":"Rami",
+            "Lname":"Shingom",
+            "DB":"24/02/2005",
+            "description":"good student",
+            "bacAVG":15.79,
+            "courses":["2","3"]
+
+        }
+    ]
+}
