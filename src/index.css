@@ -12,3 +12,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h1{
+    color: #e39dff;
+    text-shadow: 0 0 40px rgba(247, 213, 255, 0.449);
+    font-weight:600;
+  }
+h2{
+  color: #ceb8e5;
+  font-weight: normal;
+}
+h3{
+  font-weight: normal;
+  color: #ceb8e5;
+  /* text-shadow: 0 0 40px rgba(238, 162, 255, 0.449); */
+
+}
