@@ -23,9 +23,9 @@ const Create = () => {
             <input type="text" required onChange={e=>setFname(e.target.value)}/>
             <label >last name :</label>
             <input type="text" required onChange={e=>setLname(e.target.value)}/>
-            <label>bacalloriat average :</label>
+            <label>bac average :</label>
             <input type="number" required onChange={e=>setBac(e.target.value)}/>
-            <label>birth date (dd/mm/yyyy) :</label>
+            <label>birth date :</label>
             <div className="mydatepicker">
             <DatePicker
                 selected={birthDate}
