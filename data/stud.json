@@ -8,8 +8,7 @@
       "description": "good student",
       "bacAVG": 15.26,
       "courses": [
-        "1",
-        "3"
+        "1"
       ]
     },
     {
@@ -34,8 +33,7 @@
       "bacAVG": 15.79,
       "courses": [
         "2",
-        "3",
-        "1"
+        "3"
       ]
     }
   ]

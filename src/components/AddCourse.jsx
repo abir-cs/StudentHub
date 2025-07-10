@@ -7,11 +7,10 @@ const AddCourse =() => {
     const navigate = useNavigate();
     const {data:courses,loading,error}=useFetch("http://localhost:8000/courses");
 
-
     const handleclick= async(newid)=>{ 
         console.log(newid)
         const res=await fetch("http://localhost:8001/students/"+id);
-        const student = await res.json();   
+        const student = await res.json();  
         const upCourses= student.courses.includes(newid)
         ? student.courses : [...student.courses, newid];
         const upRes=await fetch("http://localhost:8001/students/"+id,{
@@ -24,7 +23,6 @@ const AddCourse =() => {
         }); 
         navigate(-1);
     }
-
 
     return ( 
         <div className="courseslist">
