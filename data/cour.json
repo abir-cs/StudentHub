@@ -1,32 +1,46 @@
 {
-    "courses":[
-        {
-            "id":"1",
-            "name":"AI fundemantals",
-            "teacher":"malak haroch",
-            "duration":"12h00min",
-            "sessions":8
-        },
-        {
-            "id":"2",
-            "name":"Cloud Computing",
-            "teacher":"hamid sandli",
-            "duration":"16h00min",
-            "sessions":11
-        },
-        {
-            "id":"3",
-            "name":"Web Dev",
-            "teacher":"lilya mosaab",
-            "duration":"10h00min",
-            "sessions":6
-        },
-        {
-            "id":"4",
-            "name":"Data Structures and Alogorithms",
-            "teacher":"tamr dlilou",
-            "duration":"10h00min",
-            "sessions":6
-        }
-    ]
+  "courses": [
+    {
+      "id": "1",
+      "name": "AI fundemantals",
+      "teacher": "malak haroch",
+      "duration": "12h00min",
+      "sessions": 8
+    },
+    {
+      "id": "2",
+      "name": "Cloud Computing",
+      "teacher": "hamid sandli",
+      "duration": "16h00min",
+      "sessions": 11
+    },
+    {
+      "id": "3",
+      "name": "Web Dev",
+      "teacher": "lilya mosaab",
+      "duration": "10h00min",
+      "sessions": 6
+    },
+    {
+      "id": "4",
+      "name": "Data Structures and Alogorithms",
+      "teacher": "tamr dlilou",
+      "duration": "10h00min",
+      "sessions": 6
+    },
+    {
+      "id": "d600",
+      "name": "Algebra",
+      "teacher": "ahmad jaafar",
+      "duration": "15h30min",
+      "sessions": "8"
+    },
+    {
+      "id": "67ec",
+      "name": "Analysis",
+      "teacher": "malak boudwaw",
+      "duration": "16h00min",
+      "sessions": "10"
+    }
+  ]
 }

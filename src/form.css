@@ -32,3 +32,17 @@ input:focus, textarea:focus{
 .mydatepicker .react-datepicker__input-container input{
     text-align: center;
 }
+.error{
+    color: #ff8b8b;
+}
+.dur{
+    display: flex;
+    input{
+        margin: 0;
+        width: 70px;
+        text-align: center;
+    }
+    label{
+        color: #e39dff;
+    }
+}

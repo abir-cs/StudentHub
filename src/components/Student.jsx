@@ -10,7 +10,7 @@ const Student = () => {
     const [coursesError, setCoursesError] = useState(null);
     
     useEffect(() => {
-        if (student && student.courses && student.courses.length > 0) {
+        if (student && student.courses ) {
             setCoursesLoading(true);
             Promise.all(
                 student.courses.map(courseId =>
