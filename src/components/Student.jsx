@@ -1,14 +1,19 @@
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
 import { useEffect ,useState} from "react";
 
 const Student = () => {
     const {id}=useParams();
+    const nav= useNavigate();
     const {data:student,loading,error}=useFetch("http://localhost:8001/students/"+id);
     const [courses, setCourses] = useState([]);
     const [coursesLoading, setCoursesLoading] = useState(true);
     const [coursesError, setCoursesError] = useState(null);
-    
+    const handledelete=()=>{
+        fetch("http://localhost:8001/students/"+id,{
+            method:"DELETE"
+        }).then(()=>nav(-1))
+    };
     useEffect(() => {
         if (student && student.courses ) {
             setCoursesLoading(true);
@@ -39,7 +44,7 @@ const Student = () => {
             <p>date of birth : {student.DB}</p>
             <p>bac average : {student.bacAVG}</p>
             <p>description : {student.description}</p>
-            <div className="buttons"><button>Delete</button><button>Edit</button></div>
+            <div className="buttons" onClick={handledelete}><button>Delete</button><button>Edit</button></div>
             
         </div> 
         <h2>Courses</h2>

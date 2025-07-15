@@ -29,13 +29,6 @@
       "sessions": 6
     },
     {
-      "id": "d600",
-      "name": "Algebra",
-      "teacher": "ahmad jaafar",
-      "duration": "15h30min",
-      "sessions": "8"
-    },
-    {
       "id": "67ec",
       "name": "Analysis",
       "teacher": "malak boudwaw",
