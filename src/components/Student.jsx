@@ -44,7 +44,11 @@ const Student = () => {
             <p>date of birth : {student.DB}</p>
             <p>bac average : {student.bacAVG}</p>
             <p>description : {student.description}</p>
-            <div className="buttons" onClick={handledelete}><button>Delete</button><button>Edit</button></div>
+            <div className="buttons" >
+                <button onClick={handledelete}>Delete</button>
+                <Link to ="./editStud"> <button>Edit</button> </Link>
+                
+            </div>
             
         </div> 
         <h2>Courses</h2>
