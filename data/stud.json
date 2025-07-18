@@ -2,13 +2,14 @@
   "students": [
     {
       "id": "864",
-      "Fname": "Lamis",
-      "Lname": "Bouflga",
-      "DB": "12/05/2005",
-      "description": "good student",
-      "bacAVG": 15.26,
+      "Fname": "lamin",
+      "Lname": "Bouflgo",
+      "DB": "12/05/2003",
+      "description": "good student all the waydssvsdf",
+      "bacAVG": "15.48",
       "courses": [
-        "1"
+        "1",
+        "4"
       ]
     },
     {
@@ -27,7 +28,7 @@
     {
       "id": "12",
       "Fname": "Rami",
-      "Lname": "Shingom",
+      "Lname": "Shwingom",
       "DB": "24/02/2005",
       "description": "good student",
       "bacAVG": 15.79,
@@ -45,17 +46,6 @@
       "bacAVG": "18.1",
       "courses": [
         "4"
-      ]
-    },
-    {
-      "id": "3ebe",
-      "Fname": "kala",
-      "Lname": "bindo",
-      "DB": "26/06/2006",
-      "description": "sakalulu",
-      "bacAVG": "14.89",
-      "courses": [
-        "67ec"
       ]
     }
   ]
