@@ -23,6 +23,13 @@ const EditStudent = () => {
     const [day, month, year] = dateString.split("/").map(Number);
     return new Date(year, month - 1, day);
   };
+  const checkAVG = (avg) => {
+    const numRegex = /^([0-9]+)(\.?)([0-9]*)$/;
+    if (numRegex.test(avg)) {
+      if (avg >= 0 && avg <= 20) return null;
+      else return "average is bound by [0-20] !";
+    } else return "not correct number format !";
+  };
   const getStudent = async () => {
     const res = await axios.get("http://localhost:8001/students/" + id);
     const data = res.data;
@@ -36,14 +43,19 @@ const EditStudent = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const upRes = await fetch("http://localhost:8001/students/" + id, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(student),
-    });
-    navigate(-1);
+    const err = checkAVG(student.bacAVG);
+    if (err) {
+      setError(err);
+    } else {
+      const upRes = await fetch("http://localhost:8001/students/" + id, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(student),
+      });
+      navigate(-1);
+    }
   };
 
   return (

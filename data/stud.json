@@ -31,7 +31,7 @@
       "Lname": "Shwingom",
       "DB": "24/02/2005",
       "description": "good student",
-      "bacAVG": 15.79,
+      "bacAVG": "13.56",
       "courses": [
         "2",
         "3"
@@ -41,11 +41,12 @@
       "id": "75e9",
       "Fname": "abir",
       "Lname": "belhadef",
-      "DB": "13/07/2005",
+      "DB": "24/02/2005",
       "description": "idk idk idk idk idk idk",
       "bacAVG": "18.1",
       "courses": [
-        "4"
+        "4",
+        "67ec"
       ]
     }
   ]
